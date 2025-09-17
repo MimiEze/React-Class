@@ -10,10 +10,6 @@ export default function Login() {
       errors, isSubmitting },
   } = useForm();
 
-  const onFormSubmit = (data) => {
-    console.log(data);
-  };
-
   return (
     <div className="w-[90vw] md:max-w-[320px] mx-auto">
       <h1 className="font-bold text-3xl mb-6">Login to your account</h1>
